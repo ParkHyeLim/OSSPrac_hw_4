@@ -1,10 +1,11 @@
-list = []
 name = input("이름을 입력하세요: ")
 g_num = input("학번을 입력하세요: ")
-list.append(name)
-list.append(g_num)
+dept = input("학과를 입력하세요: ")
+school = input("학교을 입력하세요: ")
 
 print()
 print('<출력>')
 print('이름: '+name)
 print('학번: '+g_num)
+print('이름: '+dept)
+print('학번: '+school)
